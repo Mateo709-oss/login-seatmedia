@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto Mejorado</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo añadido aquí -->
+        <div class="logo">
+            <img src="img/logo.png" alt="Logo de la empresa">
+        </div>
+        <form class="contact-form">
+            <h2>Contacto</h2>
+            <div class="input-group">
+                <input type="text" id="nombres" placeholder="Nombres" required>
+                <input type="text" id="apellidos" placeholder="Apellidos" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Correo Electrónico" required>
+            </div>
+            <div class="input-group">
+                <textarea id="mensaje" placeholder="Escribe tu mensaje aquí..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-enviar">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
